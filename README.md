@@ -1,17 +1,53 @@
 # Re²-DocRED: Revisiting Revisited DocRED for Joint Entity and Relation Extraction
+
 This is the official repo for the EACL 2026 paper "Re²-DocRED: Revisiting Revisited DocRED for Joint Entity and Relation Extraction"
 
-## Datasets
-The datasets used for produced through this paper is found in [dataset](dataset) folder
+---
 
-## Model Weights
-The model weights are available upon request by contacting the corresponding author. Access is granted subject to review.
+Contents
+---
 
+This repository provides:
+
+* **Re2-DocRED**, a revised and extended relation extraction dataset
+* Reannotations that correct false negatives in existing benchmarks
+* A revised Mandarin test split derived from REDFM
+
+
+The datasets are located in the '[dataset/](dataset/)' folder
+
+---
+
+Dataset Overview
+---
+
+Re2-DocRED builds upon and reannotates the following datasets:
+
+* Re-DocRED:https://github.com/tonytan48/Re-DocRED
+* DocGNRE: https://github.com/bigai-nlco/DocGNRE
+* REDFM: https://huggingface.co/datasets/Babelscape/REDFM
+
+
+Our contributions focus on improving annotation quality through explicit reasoning steps and entity-level constraints derived from relation definitions.
+
+
+---
 ## License
-This repository mainly contains third-party open-source datasets.
 
-Unless otherwise specified, datasets and non-code content are provided under
-CC BY-NC-SA 4.0.
+The dataset released in this repository is provided under the **Creative Commons Attribution–ShareAlike 4.0 (CC BY-SA 4.0)** license. The text of the license can be found [here](https://creativecommons.org/licenses/by-sa/4.0/).
 
-Original licenses and attribution requirements from upstream sources still apply and take precedence.
+This dataset builds upon prior open-source resources:
+
+* Re-DocRED and DocGNRE (MIT License)
+* REDFM (CC BY-SA 4.0)
+
+All original sources are credited. Users should cite both the original datasets and this work when appropriate.
+
+---
+
+## Citation
+
+If you use this dataset, please cite the accompanying paper.
+
+
 
