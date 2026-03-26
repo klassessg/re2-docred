@@ -1,6 +1,6 @@
 # Re²-DocRED: Revisiting Revisited DocRED for Joint Entity and Relation Extraction
 
-This is the official repo for the EACL 2026 paper "Re²-DocRED: Revisiting Revisited DocRED for Joint Entity and Relation Extraction", released by KLASS Engineering & Solutions Pte Ltd as part of the accompanying research.
+This is the official repo for the EACL 2026 paper "[Re²-DocRED: Revisiting Revisited DocRED for Joint Entity and Relation Extraction](https://aclanthology.org/2026.eacl-long.213/)", released by KLASS Engineering & Solutions Pte Ltd as part of the accompanying research.
 
 ## Contents
 
@@ -32,6 +32,15 @@ This dataset builds upon prior open-source resources:
 
 All original sources are credited. Users should cite both the original datasets and this work when appropriate.
 
+If you use this dataset, please cite the accompanying paper.
+ 
 ## Citation
 
-If you use this dataset, please cite the accompanying paper.
+If you use this dataset or repository, please cite:
+```bibtex
+@inproceedings{heng-etal-2026-re2,
+  title = {Re2-{D}oc{RED}: Revisiting Revisited-{D}oc{RED} for Joint Entity and Relation Extraction},
+  author = {Heng, Chen Kim and Tong, Shao Wen and Wong, Julian Wei Sheng},
+  booktitle = {Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics},
+  year = {2026}
+}
